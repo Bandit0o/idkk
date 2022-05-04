@@ -1,0 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+    double a=2;
+    double b=3;
+    double c=4;
+
+      double d= 4 * a * c;
+      double e= b * b;
+      double f= e - d;
+      double g= Math.sqrt(f);
+      double h=b * -1;
+      double x=h - g;
+      double i= h + g;
+      double j= 2 * a;
+      double y= x / j;
+      double k= i / j;
+      System.out.println(y + " or " + k);
+  }
+}
